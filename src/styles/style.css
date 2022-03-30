@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#root {
+    text-align: center;
+    
+    background-image: url('../assets/roadmap-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    line-height: 5;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.containers-inner {
+  background-image: url('../assets/home/background.svg');
+}
+.lines {
+    background-image: url('../assets/home/Height\ and\ lines.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(.95);
+    margin: 0 auto;
+}
+
+.headSocial {
+    width: 65%;
+    margin-top: 50px;
+    transform:  scale(0.75);
+}
+
+.mintButton {
+    margin-top: 30px;
+}
+.mintButton > button {
+    margin-left: 30px;
+}
+
+.profile-section {
+    /* display: flex; */
+    /* max-width: 100%; */
+    padding: 0;
+    /* margin: 0 auto; */
+    justify-content: center;
+}
+
+.profile-group {
+    position: relative;
+    width: 30%;
+}
+
+/* .profile-group>img, .card {
+    position: absolute;
+
+} */
+
+.profileRep {
+    width: 345px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    padding: 0;
+    /* transform: scale(0.85); */
+}
+
+.profileCard {
+    position: absolute;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    /* height: 100px; */
+    width: 45%;
+    top: 255px;
+    left: 145px;
+    border: black 2px solid;
+}
+
+.upper-label {
+    width: 50%;
+    /* resize svg to 75% */
+    transform: scale(0.9);
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    color: #aa7e3f;
+}
+
+.about-text {
+    font-size: 1.5rem
+}
+
+.container>h1 {
+    /* underline */
+    text-decoration: underline;
+    text-decoration-color: #aa7e3f;
+}
+h1>span {
+    font-size: small;
+}
+
+/* #roadmap{
+    background-image: url('../assets/roadmap-bg.png');
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* transform: scale(.95);
+    margin: 0 auto;} */
+/* } */
+
+.roadmap-group {
+    border: #aa7e3f 5px solid;
+}
+
+.roadmap-group .roadmap-title {
+    border: #aa7e3f 5px solid;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* unordered list decoration */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.faq-group {
+    border: black 3px solid;
+    width: fit-content;
+    margin: 30px auto;
+}
+.faq-group>p {
+    color: #aa7e3f;
+    /* bold */
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile-section {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lines {
+        background-image: none;
+    }    
+}
